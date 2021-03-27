@@ -1,3 +1,6 @@
+import css from 'styled-jsx/css'
+
+export default css.global`
 html,
 body {
   padding: 0;
@@ -14,3 +17,4 @@ a {
 * {
   box-sizing: border-box;
 }
+`;
